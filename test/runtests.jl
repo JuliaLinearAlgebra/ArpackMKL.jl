@@ -2,6 +2,7 @@
 
 using ArpackMKL
 using Test, LinearAlgebra, SparseArrays, Random
+const Arpack = ArpackMKL
 
 @testset "eigs" begin
     Random.seed!(1234)
