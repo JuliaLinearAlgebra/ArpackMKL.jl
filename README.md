@@ -16,3 +16,5 @@
 This repo contains Arpack built against the MKL binaries. The module presents as `ArpackMKL` to Julia, but the underlying binary is still called `libarpack`.
 
 In interactive use, you can alias `const Arpack = ArpackMKL` after loading the module.
+
+MKL needs to be installed on your system to load the MKL-built Arpack (I think due to dynamically linked dependencies.)
