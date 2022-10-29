@@ -1,3 +1,7 @@
+# Note
+
+This package is deprecated and archived, and MKL support is available in [Arpack.jl](https://github.com/JuliaLinearAlgebra/Arpack.jl) through [Libblastrampoline](https://github.com/JuliaLinearAlgebra/Arpack.jl/issues/62).
+
 # ArpackMKL
 
 [![Build Status](https://travis-ci.org/JuliaLinearAlgebra/ArpackMKL.jl.svg?branch=master)](https://travis-ci.org/JuliaLinearAlgebra/ArpackMKL.jl)
